@@ -1,4 +1,4 @@
 module.exports = {
-    USER: 'nodereactemailtesting@gmail.com', 
-    PASS: 'NRet2288',
+    USER: 'youremail@gmail.com', 
+    PASS: 'yourpassword',
 }
