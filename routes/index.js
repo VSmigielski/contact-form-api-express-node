@@ -25,7 +25,8 @@ router.post('/send', (req, res, next) => {
   var name = req.body.name
   var email = req.body.email
   var message = req.body.message
-  var content = `name: ${name} \nemail: ${email} \nmessage: ${message} `
+  var phone = req.body.phone
+  var content = `name: ${name} \nemail: ${email} \nphone: ${phone} \nmessage: ${message} `
 
   var mail = {
     from: name,
